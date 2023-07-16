@@ -1,4 +1,4 @@
-node ('slave-x1') {
+pipeline {
 	stage('Init') { 
 		deleteDir() //comenzar con workspace limpio
 		git branch: "develop", 
