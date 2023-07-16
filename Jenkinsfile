@@ -3,7 +3,7 @@ node ('slave-x1') {
 		deleteDir() //comenzar con workspace limpio
 		git branch: "develop", 
 			credentialsId: "************************************", 
-			url: "https://github.com/javiertuya/samples-test-spring.git"
+			url: "https://github.com/jesusta/samples-test-spring.git"
 	}
 	stage('test') {
 		echo "****** Build and test" 
